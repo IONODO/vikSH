@@ -56,5 +56,5 @@ Coming soon...
 
 ## Why?
 
-No reason other than curiosity, would i suggest replacing your current shell for this, hell no, but can you use it without worrying a system wipeout? ADBOLUTELY
+No reason other than curiosity, would i suggest replacing your current shell for this, hell no, but can you use it without worrying a system wipeout? ABSOLUTELY
 The program is easy and clean enough for you to add in your own builtin functions and make your own shell as well.

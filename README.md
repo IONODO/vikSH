@@ -1,19 +1,60 @@
-____   ____.__  __            .__     
-\   \ /   /|__||  | __  ______|  |__  
- \   Y   / |  ||  |/ / /  ___/|  |  \ 
-  \     /  |  ||    <  \___ \ |   Y  \
-   \___/   |__||__|_ \/____  >|___|  /
-                    \/     \/      \/ 
-# vikSH
-A super basic shell in C, nothing else really
+# ____   ____.__  __            .__
+# \   \ /   /|__||  | __  ______|  |__
+#  \   Y   / |  ||  |/ / /  ___/|  |  \
+#   \     /  |  ||    <  \___ \ |   Y  \
+#    \___/   |__||__|_ \/____  >|___|  /
+#                     \/     \/      \/
 
-## Using the shell
-'''
+# vikSH
+
+A tiny shell written in C because I wanted to understand how shells actually work instead of just using one.
+It's simple. No fancy scripting, no job control, no pipes (yet). Just enough to run commands and slowly grow into something better.
+
+## Build
+
+```bash
 git clone https://github.com/IONODO/vikSH.git
+cd vikSH
 make
 ./viksh
-'''
+```
 
-## Commands
-Up until now, there are only a few builtin commands that work, other than running executables (like vim, brave, etc.) like cd,pwd,ls etc.
-Use `help` to learn more
+## Current features
+
+Built-in commands:
+
+- `cd`
+- `ls`
+- `mkdir`
+- `rmdir`
+-and more
+run `help` to know more
+
+External programs work too:
+
+```bash
+vim
+nano
+gcc
+brave
+firefox
+...
+```
+
+Basically, if it's in your `PATH`, vikSH can launch it.
+
+## Things that don't exist (yet)
+
+- pipes (`|`)
+- redirection (`>`, `<`)
+- command history
+- tab completion
+- background jobs (`&`)
+- environment variables
+
+Coming soon...
+
+## Why?
+
+No reason other than curiosity, would i suggest replacing your current shell for this, hell no, but can you use it without worrying a system wipeout? ADBOLUTELY
+The program is easy and clean enough for you to add in your own builtin functions and make your own shell as well.

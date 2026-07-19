@@ -8,7 +8,7 @@
 # vikSH
 
 A tiny shell written in C because I wanted to understand how shells actually work instead of just using one.
-It's simple. No fancy scripting, no job control, no pipes (yet). Just enough to run commands and slowly grow into something better.
+It's simple. No fancy scripting, no job control, no pipes (yet). Just enough to run commands with history and tab autocompletion, and slowly grow into something better.
 
 ## Build
 
